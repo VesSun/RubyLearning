@@ -1,0 +1,6 @@
+def greet (name)
+  wishes = ["Joy", "Love", "Happiness", "Good Luck", "Adventures"]
+  "I wish you a lot of #{wishes.shuffle.sample}, #{name}!"
+end
+
+puts greet ("Marta")
